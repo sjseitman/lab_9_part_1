@@ -3,8 +3,11 @@ void setup() {
 }
 
 void draw() {
-  // make some ice cream!
-  noStroke(); 
+  drawCone();
+ 
+}
+void drawCone(){
+   noStroke(); 
   fill(200,100,50);
   triangle(250,400,290,280,210,280);
   fill(240,160,190);
@@ -18,6 +21,5 @@ void draw() {
   fill(255,0,0);
   triangle(250,130,260,90,255,90);
 }
-
 
 
